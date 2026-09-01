@@ -33,6 +33,7 @@ jobs:
         run: |
            python train.py
            ls -la artifacts
+           date
       
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
